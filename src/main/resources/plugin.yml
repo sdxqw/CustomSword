@@ -1,0 +1,12 @@
+name: CustomSword
+version: '${project.version}'
+main: org.xnotro.customsword.Main
+api-version: 1.18
+prefix: CustomSword
+authors: [ xnotro ]
+description: Custom Sword is a plugin for a challenge
+commands:
+  customsword:
+    description: "give customsword to a player"
+    permission: default
+    usage: /customsword
