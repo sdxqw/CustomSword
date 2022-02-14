@@ -37,7 +37,7 @@ class Main : JavaPlugin(), CommandExecutor, Listener {
         // value for player
         val p = sender as Player
 
-        // if you type /customsword if start this
+        // if you type /customsword it start this
         if (args.isEmpty()) {
 
             // define the item
